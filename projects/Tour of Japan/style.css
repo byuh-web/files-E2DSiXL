@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+
+    background-image: url('images/decorative-side.png'), url('images/pattern-bg.png');
+    background-position: right top, left top;
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #8c1d40;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #222222;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #555555;
+}
+
+nav a.active {
+    background-color: #8c1d40;
+    font-weight: bold;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.tour-list {
+    list-style-image: url('images/bullet-icon.png');
+    padding-left: 40px;
+    line-height: 2;
+}
+
+
+.photo-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.tour-photo {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.caption {
+    font-style: italic;
+    color: #666666;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
