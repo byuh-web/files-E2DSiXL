@@ -1,0 +1,28 @@
+header h1 {
+    font-family: Arial, sans-serif;
+    /* Using Hex color style */
+    color: #2c3e50; 
+    text-align: center;
+}
+
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.color-info {
+    font-weight: bold;
+    /* Using RGBA color style (Red, Green, Blue, Alpha/Opacity) */
+    color: rgba(46, 204, 113, 1.0); 
+}
+
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.8rem;
+    color: #95a5a6;
+}
