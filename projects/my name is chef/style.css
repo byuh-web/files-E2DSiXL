@@ -1,0 +1,99 @@
+.menu-list {
+    display: grid;
+    grid-template-columns: 7fr 7fr 2fr;
+    gap: 20px;
+    background-color: #9eeaff;
+}
+
+.special {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    width: px;
+    grid-column: span 3;
+}
+
+.menu-1 {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    width: 150px;
+}
+
+.menu-2 {
+    background-color: #4400ff;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    width: 150px;
+}
+
+.menu-3 {
+    background-color: #00ff00;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    width: 150px;
+}
+
+.menu-4 {
+    background-color: #ff7300;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    width: 150px;
+}
+
+.menu-5 {
+    background-color: #ff00ff;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    width: 150px;
+}
+
+.menu-6 {
+    background-color: #a200ff;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    width: 150px;
+}
+.menu-7 {
+    background-color: #19a15f;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    width: 150px;
+}
+.menu-8 {
+    background-color: #ff0073;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    width: 150px;
+}
+.menu-9 {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    width: 150px;
+}
+.menu-10 {
+    background-color: #a9a745;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    width: 150px;
+}
+.description {
+    background-color: #002fff;
+    color: #ffffff;
+    padding: 0px;
+    text-align: bottom;
+    width: 1000px;
+    gap: 20px;
+}
