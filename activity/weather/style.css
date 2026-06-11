@@ -1,0 +1,28 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 3px;
+    padding: 3px;
+}
+
+.cards {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(120, 235, 235);
+    font-size: 20px;
+    margin: 15px
+    border radius: 10px
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: #daff55;
+        font-size: 14px
+    }
+    .cards {
+        padding: 10px;
+        border: 2px solid blue;
+        
+    }
+}
