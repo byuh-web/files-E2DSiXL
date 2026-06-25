@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333333;
+}
+
+header {
+    background-color: #75aadb;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+}
+
+nav ul {
+    background-color: #f6b426;
+    padding: 10px;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #75aadb;
+}
+
+nav a.active {
+    background-color: white;
+    color: #75aadb;
+    border: 1px solid #75aadb;
+}
+
+.content-wrapper {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+main {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.argentina-card {
+    background-color: white;
+    border: 2px solid #75aadb;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #75aadb;
+    margin-top: 0;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-size: 0.85rem;
+    color: #555;
+    font-style: italic;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: white;
+    border: 2px solid #f6b426;
+    padding: 15px;
+    height: max-content;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    color: #333;
+    border-bottom: 2px solid #f6b426;
+    padding-bottom: 5px;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+.sidebar li {
+    margin-bottom: 8px;
+}
+
+form {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+input, select, textarea {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #f6b426;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #75aadb;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}

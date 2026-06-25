@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Argentina - Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Discover Argentina</h1>
+    <nav>
+        <ul>
+            <li><a href="argentina.html">Home</a></li>
+            <li><a href="iguazu.html">Iguazu Falls</a></li>
+            <li><a href="perito.html">Perito Moreno</a></li>
+            <li><a href="plaza.html">Plaza de Mayo</a></li>
+            <li><a href="aconcagua.html">Aconcagua</a></li>
+            <li><a href="feedback.html" class="active">Feedback</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="content-wrapper">
+
+    <main>
+        <article class="argentina-card">
+            <h2>Share Your Thoughts</h2>
+            <p>Please use the form below to let me know what you think about the website or if you have any questions about Argentina.</p>
+            
+            <form action="#" method="post">
+                <p>
+                    <label for="user-name">Name:</label><br>
+                    <input type="text" id="user-name" name="name" required>
+                </p>
+                
+                <p>
+                    <label for="user-email">Email:</label><br>
+                    <input type="email" id="user-email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="destination">Favorite Destination:</label><br>
+                    <select id="destination" name="favorite_place">
+                        <option value="iguazu">Iguazu Falls</option>
+                        <option value="perito">Perito Moreno</option>
+                        <option value="plaza">Plaza de Mayo</option>
+                        <option value="aconcagua">Aconcagua</option>
+                    </select>
+                </p>
+                
+                <p>
+                    <label for="user-message">Comments or Suggestions:</label><br>
+                    <textarea id="user-message" name="message" rows="5" required></textarea>
+                </p>
+                
+                <p>
+                    <button type="submit">Submit Feedback</button>
+                </p>
+            </form>
+        </article>
+    </main>
+
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Argentina Site</p>
+    <p>All images from Pexels</p>
+</footer>
+
+</body>
+</html>
